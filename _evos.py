@@ -339,7 +339,7 @@ def received_inline(update, context):
                                  chat_id=query.message.chat_id)
 
 def main():
-    Token = "1966839803:AAGtZSUQgq46ck6ya7OeyssXMZa991U22NU"
+    Token = "7874457774:AAFovR2I0EcI3eCkjGjAKIqnP3B8yVrd5j8"
     updater = Updater(Token)
 
     updater.dispatcher.add_handler(CommandHandler("start", start))
